@@ -15,3 +15,4 @@ test("login usuario locked", async ({ page }) => {
   await loginPage.loguear_credenciales("locked_out_user", "secret_sauce");
   await loginPage.validar_msj_errorLockedUser();
 });
+//a
