@@ -30,3 +30,5 @@ test("clickear todos los botones Add to cart y verificar carrito", async ({
   // Verificar que los ítems en el carrito coinciden con los ítems añadidos
   await inventoryPage.verificar_items_en_carrito(nombresItems);
 });
+
+//test
