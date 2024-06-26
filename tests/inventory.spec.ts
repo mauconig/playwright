@@ -31,4 +31,4 @@ test("clickear todos los botones Add to cart y verificar carrito", async ({
   await inventoryPage.verificar_items_en_carrito(nombresItems);
 });
 
-//test
+// Definimos el test, el nombre y una instancia de la página (page)
